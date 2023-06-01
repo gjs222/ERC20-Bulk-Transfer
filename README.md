@@ -2,19 +2,20 @@
 
 This script allows you to send ERC20 tokens to multiple addresses using a CSV file containing the recipient addresses and corresponding token amounts. The script utilizes the ethers.js library and requires a functioning Ethereum RPC node.
 
+
 ## Installation
 
 1. Clone or download the script files to your local machine.
 
 2. Open a terminal and navigate to the project directory.
 
-3. Run the following command to run the installation script and install the required dependencies:
+3. Run the following command to install the required dependencies:
 
    ```shell
-   node install.js
+   npm install
    ```
 
-   This script will automatically install the necessary dependencies (`fs`, `csv-parser`, and `ethers`) using npm.
+   This command will install the necessary dependencies (`fs`, `csv-parser`, and `ethers`) based on the `package.json` file included in the project.
 
 ## Configuration
 
