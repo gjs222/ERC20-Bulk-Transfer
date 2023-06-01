@@ -62,9 +62,14 @@ Address,Amount
    node sendtoken.js
    ```
 
+
 ## Result
 
 The script will iterate through each record in the CSV file and initiate a transfer of the specified ERC20 tokens to the respective recipient addresses. It will also output the transaction details, including the transaction hash.
+
+![image](https://github.com/gjs222/ERC20-Bulk-Transfer/assets/111423996/062a6ded-7bd4-4a7f-8903-599933f8e3ec)
+
+![image](https://github.com/gjs222/ERC20-Bulk-Transfer/assets/111423996/d3e1d7cd-dde5-4e1e-9768-e3237cb22ffe)
 
 Please note that there will be a random delay between each transaction to avoid overwhelming the network. The delay is set between 2 to 10 seconds.
 
