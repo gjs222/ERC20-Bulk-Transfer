@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "alchemy-sdk": "^2.8.3",
+    "csv-parse": "^5.3.10",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.1",
+    "path": "^0.12.7"
+  },
+  "name": "send-erc20-multiple-address",
+  "description": "To execute the code, you'll need to follow these steps",
+  "version": "1.0.0",
+  "main": "sendtoken.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
